@@ -1,13 +1,5 @@
 <div class="container mt-4">
     <a class="btn btn-primary mb-3" href="<?= base_url("app/create"); ?>">Create new employee</a>
-
-
-    <div class="card">
-        <div class="card-body">
-            <pre><?php echo serialize($employees) ?></pre>
-        </div>
-    </div>
-
     <div class="card">
         <div class="card-body">
             <table class="table table-hover">
